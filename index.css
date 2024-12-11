@@ -1,0 +1,365 @@
+/* .parent {
+    display: flex;
+    border: 2px solid red; Parent border
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: baseline;
+    height: 30rem;
+    width: 50%;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 2rem;
+
+  }
+  
+  .child {
+    flex-shrink: 12;
+    border: 1px solid blue;  Child border 
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+  }
+  .a{
+
+    font-size: 2.4rem;
+  }
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+background-color: black;
+color: white;
+}
+.knowmore{
+    color: white;
+    background-color: rgb(243, 134, 152);
+    border: 4px solid rgb(255, 87, 115);
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 2px;
+    font-size: 13px;
+
+    /* transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s; */
+    /* transition: transform 0.3s ease-out , background-color 0.4s ease-in , color 0.33s ease-in-out; */
+    /* transition: all 0.3s ease-in 0.1s; */
+
+/* }
+.knowmore:hover{
+    background-color: white;
+    color: rgb(243, 134, 152);
+    transform: translateX(30px);
+}
+/* animations */
+/* @keyframes slideinleft{
+    from{
+            transfrom: translateX(0px);
+            color: white;
+            opacity: 0;
+    }
+    to{
+        transform: translateX(300px);
+        color: green;
+        opacity: 1;
+
+    }
+}
+
+@keyframes landtobottom{
+    from{
+        transform: translateY(0px);
+        
+    }
+    to{
+        transform: translateY(200px) ;
+        font-size: 40px;
+    }
+    
+}
+
+@keyframes movezigzag{
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    25%{
+        transform:  translateX(100px) translateY(100px);
+    }
+    50%{
+        transform: translateY(0px) translateX(200px);
+    }
+    75%{
+        transform: translateY(100px) translateX(300px);
+    }
+    100%{
+        transform: translateY(0px) translateX(400px);
+    }
+}
+.zigzag{
+    animation-name: movezigzag;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.3s;
+    animation-iteration-count: 4;
+    animation-direction:normal;
+    animation-fill-mode:both;
+}
+
+.fa-chess-rook{
+    animation-name: landtobottom;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+}
+.money{
+    font-weight: bold;
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+ */
+ *{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 229, 200);
+ }
+#atTop{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.mainFeature{
+    position: sticky;
+    top: 90px;
+    background-color: rgb(250, 240, 149);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80rem;
+    height: 5rem;
+    transition: transform 0.5s ease-in-out;
+
+}
+.header-elements{
+    background-color: rgb(252, 243, 161);
+list-style: none;
+    color: blue;
+    font-weight: bold;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+    overflow-y: auto;
+}
+img{
+    height: 10rem;
+    width: 10rem;
+}
+.features{
+    margin-top: 5rem;
+}
+
+.Contacts{
+    margin-top: 2rem;
+    display:flex;
+    justify-content: space-evenly;
+}
+.newsLetter{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-items: center;
+    gap: 2em;
+    margin-top: 50px;
+}
+.footerparent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Graphs{
+margin-top: 5.2rem;
+}
+#selection{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.liner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 15px;
+}
+.MainHeading{
+    position: relative;
+    left: 180px;
+    top: 24px;
+}
+.topbtn{
+    position: relative;
+    top: 35px;
+    left: 196px;
+}
+
+
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.imagecombined{
+    margin-top: 40px;
+}
+
+.feature2{
+    margin-top: 40px;
+}
+#wallet{
+    position: relative;
+    left: 160px;
+    top: 20px;
+}
+.footerparent{
+    background-color: rgb(41, 41, 41);
+    border: 2px dotted rgb(255, 238, 212);
+    border-radius: 5px;
+}
+.newsLetter h4{
+    background-color: rgb(41, 41, 41);
+    color: rgb(221, 238, 253);
+    font-size: 22px;
+    
+
+}
+
+#emaili{
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+.newsLetter{
+    background-color: rgb(41, 41, 41);
+
+}
+.submit{
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(48, 18, 18);
+    border: none;
+}
+form{
+    background-color: rgb(41, 41, 41);
+}
+.email , .Address , .phoneNumber{
+    background-color: rgb(41, 41, 41);
+    color: rgb(0, 162, 255);
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.copyr{
+    background-color: rgb(41, 41, 41);
+    color: rgb(1, 162, 255);
+    font-weight: bold;
+    margin-top: 30px;
+}
+.Contacts{
+    background-color: rgb(41, 41, 41);
+    font-size: 14px; 
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+.login{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(79, 79, 255);
+    border: none;
+    color: whitesmoke;
+    position: relative;
+    left: -10px;
+
+}
+.login:hover{
+    background-color: rgb(0, 0, 255);
+    color: white;
+    text-decoration: underline;
+    padding: 12px 34px;
+    transition: all 0.6s ease-in-out
+}
+.SignUp{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border: none;
+}
+.SignUp:hover{
+    background-color: rgb(0, 238, 255);
+    color: black;
+    padding: 12px 34px;
+    text-decoration: underline;
+    transition: all 0.6s ease-in-out;
+}
+.header-elements:hover{
+    opacity: 0.7;
+    text-decoration: underline;
+    box-shadow: 5px 5px 0.8 5px;
+    transition: all 0.8s ease-in;
+}

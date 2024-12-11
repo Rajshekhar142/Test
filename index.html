@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yesteryear&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yesteryear&display=swap" rel="stylesheet">
+<body>
+    <div id="atTop">
+        <h1 class="MainHeading">Main Heading</h1>
+        <div class="topbtn">
+            <button class="login open-sans">Login</button>
+            <button class="SignUp open-sans">SignUp</button>
+    
+        </div>
+    </div>
+
+    <div class="mainFeature" onscroll="handleScroll">
+        <li class="header-elements">My Wallet</li>
+        <li class="header-elements">Exchange Crypto</li>
+        <li class="header-elements">Initiate Transactions</li>
+        <li class="header-elements">Transaction BroadCastings</li>
+        <li class="header-elements">News and Analysis</li>
+
+    </div>
+
+    <div class="parent">
+        <div class="Graphs">
+            <h2 id = 'liveChart'>Currency Value</h2>
+            <div class="liner">
+                <p id="selection">Selects Your Currecy</p>
+                <select name="Options" id="Options">
+                    <option value="Bitcoin" id="Bitcoin Graph">Bitcoin</option>
+                    <option value="Ethereum" id="Ethereum Graph">Ethereum</option>
+                </select>
+            </div>
+
+            
+            <div class="currencyGraph">
+                <p></p>
+            </div>
+        </div>
+    
+        <div class="features">
+            <div class="feature1">
+
+                <p class="feature1text open-sans">
+                    <b>Experience</b> seamless and faster currency transactions from our platform .
+                </p>
+                <div class="imagecombined">
+                <img src="./boy.png" alt="boy" id="boy">
+                <img src="./exchange.png" alt="exchange" id="exchange">
+                <img src="./woman.png" alt="woman" id="woman">
+                </div>
+                
+              </div>
+                <div class="feature2">
+                    <p class="feature2text open-sans">
+                        <b>Wallets</b> Secured by Public key <b>CryptoGraphy</b> and Multi-Factor-Authentication.
+                        
+                    </p>
+                    <img src="./wallet.png" alt="wallet" id = 'wallet'>
+                </div>
+        
+                
+            </div>
+        </div>
+    </div>
+    <footer class="footerparent">
+        <div class="newsLetter">
+            <h4>Subscribe to the News Letter</h4>
+            <form action="">
+            <input type="email" name="email" id="emaili" placeholder="enter your email here...">
+            <button type="submit" class="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="Contacts">
+            <p class="email lato-bold ">Email : RajsheakharMishra001@gmail.com</p>
+            <p class="phoneNumber lato-bold">Phone : Lorem ipsum dolor sit.</p>
+            <P class="Address lato-bold">Address: Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+            
+        </div>
+        <p class="copyr">COPYRIGHTS RESERVED AT &#xa9MAINHEADING</p>
+    </footer>
+    <!-- <div class="parent">
+        <div class="child a">item1</div>
+        <div class="child">item2</div>
+        <div class="child">item3</div>
+        <div class="child">item4</div>
+        
+
+    </div> -->
+    <!-- <button class="knowmore">Know More</button>
+    <h1 class="money">Here comes the money $$$</h1>
+    <h2 class="rocketcommmand"> Here comes the rook</h2>
+   
+    <i class="fa-regular fa-chess-rook"></i>
+    <i class="fa-brands fa-twitter zigzag"></i> -->
+    
+    
+    <!-- <div class="results">
+        <p class="idescription">
+            lemons
+        </p>
+        <p class="fp">
+            sour
+        </p>
+    </div>
+    <form>
+        <label for="Passoword">enter the password</label>
+        <input type="password" id="password" name="password" maxlength="16" minlength="8">
+        <button class="passtoggler">🧐</button>
+        <button type="submit"> SUBMIT</button>
+        
+
+    </form> -->
+
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/47dde94c2f.js" crossorigin="anonymous"></script>
+</body>
+</html>
